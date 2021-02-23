@@ -1,4 +1,5 @@
 # App to Keep Track of Books
+The app is a great place to keep track of all of your books!
 
 ## Tech Used
 - Python
