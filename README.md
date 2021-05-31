@@ -20,11 +20,14 @@ The app is a great place to keep track of all of your books!
 
 ## Setup/Install
 
-```
-pip3 install -r requirements.txt
-cp .env.example .env
-python3 app.py
-```
+1. `pip3 install -r requirements.txt`
+2. `makdir .env`
+- Add:
+  ```
+  SQLALCHEMY_DATABASE_URI=sqlite:///database.db
+  SECRET_KEY=some_secret
+  ```
+3. `python3 app.py`
 
 ***Tests With***
 
