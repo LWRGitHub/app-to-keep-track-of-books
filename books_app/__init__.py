@@ -5,6 +5,7 @@ from flask_bcrypt import Bcrypt
 from books_app.config import Config
 import os
 
+
 app = Flask(__name__)
 app.config.from_object(Config)
 app.secret_key = os.urandom(24)
@@ -14,8 +15,6 @@ db = SQLAlchemy(app)
 ###########################
 # Authentication
 ###########################
-
-# TODO: Add authentication setup code here!
 
 login_manager = LoginManager()
 login_manager.login_view = 'auth.login'

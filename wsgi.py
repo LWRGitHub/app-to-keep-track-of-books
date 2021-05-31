@@ -1,3 +1,2 @@
-from books_app import __init__
+from app import app
 
-app = __init__
