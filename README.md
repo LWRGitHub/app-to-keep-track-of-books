@@ -4,18 +4,12 @@ The app is a great place to keep track of all of your books!
 ## Tech Used
 - Python
 - SQL
+- SQLAlchemy
 - HTML/CSS
 - Jinja2
-- click
 - Flask
-- Flask-SQLAlchemy
 - Flask-WTF
-- itsdangerous
-- MarkupSafe
 - python-dotenv
-- SQLAlchemy
-- Werkzeug
-- WTForms
 - unittest
 
 ## Setup/Install
